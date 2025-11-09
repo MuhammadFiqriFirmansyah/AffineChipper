@@ -1,6 +1,70 @@
-# AffineChipper
+# 🔐 **AffineChipper – Sistem Keamanan Token PayVeri**
 
-With GUI
+![Python](https://img.shields.io/badge/python-3.10-blue?logo=python)
+![License](https://img.shields.io/badge/license-Educational-green)
+![UI](https://img.shields.io/badge/GUI-ttkbootstrap-purple)
+![Status](https://img.shields.io/badge/status-Finished-success)
+
+> Aplikasi **Affine Cipher dengan GUI modern** menggunakan Python dan ttkbootstrap.  
+> Dibuat sebagai proyek **UTS Kriptografi** – Universitas Pelita Bangsa.
+
+---
+
+## 🧠 **Tentang Proyek**
+
+**Affine Cipher** adalah salah satu algoritma kriptografi klasik berbasis **substitusi huruf** yang menggunakan rumus matematika modular untuk melakukan proses **enkripsi dan dekripsi teks**.  
+Setiap huruf diubah menjadi angka dan dimanipulasi menggunakan dua kunci: **a** dan **b**.
+
+Proyek ini menunjukkan bagaimana algoritma Affine Cipher dapat diimplementasikan dalam **antarmuka grafis (GUI)** yang modern dan interaktif menggunakan **Python + ttkbootstrap**.
+
+---
+
+## 🧩 **Konsep Matematis**
+
+Rumus enkripsi:
+\[
+E(x) = (a × x + b) \mod 26
+\]
+
+Rumus dekripsi:
+\[
+D(y) = a^{-1} × (y - b) \mod 26
+\]
+
+Keterangan:
+- \(a\) dan \(b\) = kunci bilangan bulat  
+- \(a\) harus **relatif prima dengan 26**, agar memiliki invers modulo  
+- \(x\) dan \(y\) = posisi huruf plaintext dan ciphertext dalam alfabet  
+
+---
+
+## 💻 **Fitur Aplikasi**
+
+✅ Enkripsi & dekripsi berbasis GUI  
+✅ Validasi kunci otomatis (cek coprime untuk nilai `a`)  
+✅ Tampilan *dark theme* elegan (menggunakan `ttkbootstrap`)  
+✅ Status proses real-time  
+✅ Tombol “Salin Hasil” ke clipboard  
+✅ Contoh input otomatis  
+✅ Watermark pembuat: **© 2025 | Made by PIKI 💡**
+
+---
+
+## 🖼️ **Tampilan Program**
+
+### 🟢 Enkripsi
+![Hasil Enkripsi](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/enkripsi.jpg)
+
+### 🔵 Dekripsi
+![Hasil Dekripsi](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/dekripsi.jpg)
+
+### 🧾 Cuplikan Kode Program
+![Kode Program](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/Affinechipper%20code.png)
+
+---
+
+## ⚙️ **Kode Sumber (Source Code)**
+
 ```py
 #!/usr/bin/env python3
 """
@@ -210,22 +274,39 @@ if __name__ == "__main__":
     app = AffineCipherApp()
     app.mainloop()
 
+    ...
+## 📄 **Kode Lengkap**
+
+Kode lengkap tersedia di repository ini:  
+[`AffineChipper.py`](https://github.com/MuhammadFiqriFirmansyah/AffineChipper/blob/main/AffineChipper.py)
+
+---
+
+## 🧪 **Hasil Pengujian**
+
+| Mode | Input | a | b | Output | Keterangan |
+|------|--------|---|---|----------|-------------|
+| Enkripsi | HouseParty | 5 | 8 | RaeucFipzy | Enkripsi berhasil |
+| Dekripsi | RaeucFipzy | 5 | 8 | HouseParty | Dekripsi berhasil |
+
+---
 ```
+## 🧾 **Kesimpulan**
 
+Dari hasil implementasi, **Affine Cipher** terbukti efektif sebagai metode pembelajaran dasar kriptografi.  
+Kelebihannya adalah **mudah dipahami, cepat diproses, dan cocok untuk edukasi**.  
 
+Namun, kelemahannya adalah **tidak aman digunakan untuk sistem modern**, karena mudah dipecahkan dengan **analisis frekuensi** atau **brute-force**.  
 
-## 🔐 Hasil Program
+Meskipun begitu, algoritma ini tetap penting sebagai **dasar konsep enkripsi klasik** sebelum mempelajari algoritma modern seperti **AES** atau **RSA**.
 
-### Enkripsi
-![Hasil Enkripsi](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/enkripsi.jpg)
+---
 
-### Dekripsi
-![Hasil Dekripsi](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/dekripsi.jpg)
+## 👨‍💻 **Dibuat Oleh**
 
-### Cuplikan Kode Program
-![Kode Program](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/Affinechipper%20code.png)
+**Muhammad Fiqri Firmansyah**  
+🧑‍🎓 Universitas Pelita Bangsa – Teknik Informatika  
+📚 UTS Kriptografi 2025  
+💡 *© 2025 | Made by PIKI*
 
-
-
-
-
+---
