@@ -1,4 +1,6 @@
 # AffineChipper
+
+With GUI
 ```py
 #!/usr/bin/env python3
 """
@@ -208,10 +210,21 @@ if __name__ == "__main__":
     app = AffineCipherApp()
     app.mainloop()
 
-```py
+```
 
-### Output
-![WhatsApp Image 2025-11-09 at 14 20 10_c54db14d](https://github.com/user-attachments/assets/286ce434-3c6c-4eb9-b25a-dc28bbcf535b)
+
+
+## 🔐 Hasil Program
+
+### Enkripsi
+![Hasil Enkripsi](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/enkripsi.jpg)
+
+### Dekripsi
+![Hasil Dekripsi](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/dekripsi.jpg)
+
+### Cuplikan Kode Program
+![Kode Program](https://raw.githubusercontent.com/MuhammadFiqriFirmansyah/AffineChipper/main/ss/Affinechipper%20code.png)
+
 
 
 
