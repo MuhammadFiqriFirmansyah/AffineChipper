@@ -275,6 +275,7 @@ if __name__ == "__main__":
     app.mainloop()
 
     ...
+```
 ## 📄 **Kode Lengkap**
 
 Kode lengkap tersedia di repository ini:  
@@ -290,7 +291,7 @@ Kode lengkap tersedia di repository ini:
 | Dekripsi | RaeucFipzy | 5 | 8 | HouseParty | Dekripsi berhasil |
 
 ---
-```
+
 ## 🧾 **Kesimpulan**
 
 Dari hasil implementasi, **Affine Cipher** terbukti efektif sebagai metode pembelajaran dasar kriptografi.  
